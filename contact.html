@@ -1,0 +1,148 @@
+<html>
+<head>
+    <style>
+        /* CSS code for styling the menu page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #f00;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 40px;
+        }
+
+        .menu-item {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #f00;
+            color: #fff;
+        }
+
+        .menu-item p {
+            margin: 0;
+            padding: 10px;
+            color: #333;
+        }
+
+        .menu-item button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #f00;
+            color: #9f9191;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .menu-item button:hover {
+            background-color: rgb(221, 221, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar section -->
+        <div class="navbar">
+            <img src="logo.jpeg" alt="Logo" class="logo">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Menu section -->
+        <div class="menu">
+            <div class="menu-item">
+                <img src="Italian.jpg" alt="Pizza">
+                <h3>Italian</h3>
+                <p>classic Italian dishes with cheese, tomato sauce, and various toppings.</p>
+                <button>View Menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="Mexicana.jpeg" alt="Burger">
+                <h3>Mexicana </h3>
+                <p>A whole variety of mexicana dishes for Cheatmeals</p>
+                <button>View menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="SouthIndian.jpeg" alt="Pasta">
+                <h3>South Indian</h3>
+                <p>South Indian dishes with a punch of Desi Masala.</p>
+                <button>View menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="sweets.jpeg" alt="Salad">
+                <h3>Salads & Sweets</h3>
+                <p>A dish of mixed raw or cooked vegetables & Continental Sweets of Choices</p>
+                <button>View Menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="continental.jpeg" alt="Sandwich">
+                <h3>Continental</h3>
+                <p> A variety of Continental Foods to </p>
+                <button>View Menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="soup.jpg" alt="Soup">
+                <h3>Soups</h3>
+                <p>A liquid dish, typically made by boiling meat, fish, or vegetables in stock or water.</p>
+                <button>View menu</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```.

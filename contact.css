@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .orange-theme {
+    background-color: rgb(44, 44, 44);
+    color: white;
+  }
+  .orange-theme h1 {
+    color: orange;
+  }
+  
+  .orange-theme .f1 {
+    text-decoration: none;
+    color: orange;
+  }
+  
+  header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .info-section {
+    text-align: center;
+  }
+  
+  .brief {
+    text-align: left;
+  }
+  
+  .Modules {
+    color: white;
+    text-align: left;
+  }
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .founder {
+    color: black;
+  }
+  .partner {
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }

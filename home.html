@@ -1,0 +1,170 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F0F0F0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #FFFFFF;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar h1 {
+            color: rgb(255, 42, 0);
+        }
+
+        .navbar li {
+            margin: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        .navbar a:hover {
+            color: #FF0000;
+        }
+
+        .banner {
+            height: 400px;
+            background-image: url("banner.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner h1 {
+            color: #FFFFFF;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px;
+            color: #333333;
+        }
+
+        .card p {
+            margin: 10px;
+            color: #777777;
+        }
+
+        .card button {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: #FF0000;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #FF3333;
+        }
+
+        .footer {
+            background-color: #333333;
+            color: #9ba387d1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #FFFFFF;
+        }
+
+        .footer a:hover {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1> EatPure : You Eat We Care </h1>
+            <img src="logo.jpeg" alt="EatPure Logo" class="logo">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <h1>EatPure - Healthy Food Delivery</h1>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="salad.jpg" alt="Salad">
+                <h3>Salads</h3>
+                <p>A fresh and crunchy salad with lettuce, tomatoes, cucumbers, carrots, and olives.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="card">
+                <img src="soup.jpg" alt="Soup">
+                <h3>Soups</h3>
+                <p>A warm and comforting soup with chicken, noodles, vegetables, and herbs.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="card">
+                <img src="Sandwich.jpeg" alt="Sandwich">
+                <h3>Sandwiches</h3>
+                <p>A delicious and filling sandwich with whole wheat bread, turkey, cheese, lettuce, and mayo.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2023 EatPure. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
